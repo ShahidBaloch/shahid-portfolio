@@ -2,6 +2,7 @@ import Navbar from "@/components/layout/navbar";
 import AboutSection from "@/components/sections/aboutSection";
 import ContactSection from "@/components/sections/contactSection";
 import ExperienceSection from "@/components/sections/experienceSection";
+import Footer from "@/components/sections/footer";
 import HomeHero from "@/components/sections/homeHero";
 import PortfolioSection from "@/components/sections/portfolioSection";
 
@@ -10,7 +11,7 @@ export default function Page() {
     <>
       <Navbar />
 
-      <main className="min-h-screen bg-gray-950 text-white">
+    <main className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-950 to-black text-white">
         <section id="home" className="border-b border-white/10">
           <HomeHero />
         </section>
@@ -29,6 +30,7 @@ export default function Page() {
           <ContactSection />
         </section>
       </main>
+         <Footer />
     </>
   );
 }
