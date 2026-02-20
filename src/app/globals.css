@@ -27,3 +27,8 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* prevents heading from hiding behind sticky navbar */
+section {
+  scroll-margin-top: 90px;
+}
